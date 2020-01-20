@@ -1,0 +1,24 @@
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "lakota" {
+    include "us(basic)"
+
+    key <AE04> { [U00E1, U00C1], [4, semicolon]           }; // a with acute
+    key <AE05> { [U00E9, U00C9], [5, percent]             }; // e with acute
+    key <AE06> { [U00ED, U00CD], [6, asciicircum]         }; // i with acute
+    key <AE07> { [U00F3, U00D3], [7, ampersand]           }; // o with acute
+    key <AE08> { [U00FA, U00DA], [8, asterisk]            }; // u with acute
+
+    key <AD01> { [U01E7, U01E6], [q, Q]                   }; // g with caron
+    key <AD04> { [U0161, U0160], [r, R]                   }; // s with caron
+
+    key <AC04> { [U014B, U014A], [f, F]                   }; // eng
+    key <AC07> { [U021F, U021E], [j, J]                   }; // h with caron
+    key <AC11> { [U2019], [apostrophe, quotedbl]          }; // glottal stop as a... right single quotation mark?  There should be a separate character for this, I think.
+
+    key <AB02> { [U017E, U017D], [x, X]                   }; // z with caron
+    key <AB03> { [U010D, U010C], [c, C]                   }; // c with caron
+    key <AB10> { [U0301], [slash, question]               }; // combining acute
+
+    key <RALT> { [ISO_Group_Latch, ISO_Group_Latch], []   }; // group latch
+
+};
