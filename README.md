@@ -16,3 +16,5 @@ This is like the standard QWERTY layout except:
 To switch to this layout, `cd` into this directory and run `xkbcomp -I. deseret.xkb $DISPLAY`.  To switch back to a standard qwerty layout, run `setxkbmap -model pc104`.
 
 I personally don't know anything about the Lakota language or writing system, but I made this layout because I saw someone request it.  So I can't really vouch for it's utility for its purpose.
+
+It matches the layout available for other operating systems available at https://lakhota.org/keyboards/
