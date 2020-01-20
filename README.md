@@ -1,4 +1,7 @@
 Lakota XKB Layout
+=================
+
+In other words, a Lakota keyboard layout for Linux-based operating systems and other nerdier operating systems.
 
 This is like the standard QWERTY layout except:
 
